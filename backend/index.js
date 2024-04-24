@@ -4,7 +4,7 @@ import Cors from "cors"
 const app =express()
 app.use(express.json())
 app.use(Cors())
-const PORT = process.env.PORT || 8800
+const PORT = process.env.PORT || 8080
 
 const db= mysql.createConnection({
     host:"localhost:3306",
