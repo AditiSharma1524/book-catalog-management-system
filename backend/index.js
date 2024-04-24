@@ -7,10 +7,10 @@ app.use(Cors())
 const PORT = process.env.PORT || 8800
 
 const db= mysql.createConnection({
-    host:"database-1.c52a4wwe6tns.ap-south-1.rds.amazonaws.com",
+    host:"localhost:3306",
     user:"root",
-    password:"123456789",
-    database:"test"
+    password:"12345",
+    database:""
 })
 app.get("/",(req,res)=>{
     res.json("Hello this is the backend")

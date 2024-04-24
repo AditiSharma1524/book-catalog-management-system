@@ -1,0 +1,2 @@
+create database book_management;
+create table book_management.books(id INT NOT NULL AUTO_INCREMENT, name VARCHAR(45) NOT NULL, description VARCHAR(500) NOT NULL, cover VARCHAR(245) NOT NULL, price INT NOT NULL, PRIMARY KEY(id));
